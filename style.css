@@ -1,3 +1,28 @@
-*{
-  margin: 0;
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: red;
+  height: 300px;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.container>div {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1px;
+  background-color: aliceblue;
+  margin: 1px;
+}
+
+.five {
+  width: 300px;
+}
+
+.one {
+  width: 200px;
 }
